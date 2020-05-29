@@ -2,5 +2,5 @@
 
 A static site for displaying my current location.
 
-Demo: https://dylan.somwhere.today
+Demo: https://dylan.somewhere.today
 
