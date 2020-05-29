@@ -4,7 +4,7 @@
   "description": "A static site for displaying your current location.",
   "main": "index.html",
   "scripts": {
-    "build": "mkdir -p dist && cp src/*.{html,css,svg} dist && tsc",
+    "build": "mkdir -p docs && cp src/*.{html,css,svg} docs && tsc",
     "dev": "nodemon -e ts,html,css -w ./src --exec 'npm run build'",
     "format": "prettier src/*.ts --write"
   },

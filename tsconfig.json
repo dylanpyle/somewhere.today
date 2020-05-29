@@ -9,7 +9,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "./dist/",
+    "outDir": "./docs/",
     "preserveSymlinks": true,
     "resolveJsonModule": true,
     "sourceMap": true,
