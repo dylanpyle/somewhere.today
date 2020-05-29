@@ -39,12 +39,12 @@ const points: Point[] = [
     type: "TRAVEL",
     method: "driving",
     destination: "Detroit, MI",
-    starting: new Date("2020-06-02T08:00-05:00"),
+    starting: new Date("2020-06-09T08:00-05:00"),
   },
   {
     type: "PLACE",
     location: "Detroit, MI",
-    starting: new Date("2020-06-02T20:00-05:00"),
+    starting: new Date("2020-06-09T20:00-05:00"),
   },
 ];
 
