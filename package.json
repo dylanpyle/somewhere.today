@@ -1,0 +1,21 @@
+{
+  "name": "somewhere.today",
+  "version": "1.0.0",
+  "description": "A static site for displaying your current location.",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/*.{html,css,svg} dist && tsc",
+    "dev": "nodemon -e ts,html,css -w ./src --exec 'npm run build'",
+    "format": "prettier src/*.ts --write"
+  },
+  "keywords": [],
+  "author": "Dylan <me@dylanpyle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
